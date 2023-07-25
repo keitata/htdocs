@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Coin Toss</title>
+    <title>コイントス</title>
     <style>
         .coin_H {
             color: red;
@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+    <h1>コイントス</h1>
     <?php
     $count = 100; // コイントスの回数
 
@@ -38,7 +39,6 @@
     }
 
     // コイントス結果の出力
-    echo '<h1>コイントス</h1>';
     echo '<p>コイン投げの回数: ' . $count . ' 回</p>';
     echo '<p>';
     foreach ($results as $result) {
