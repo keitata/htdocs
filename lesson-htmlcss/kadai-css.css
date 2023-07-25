@@ -1,0 +1,29 @@
+/* CSSファイル kadai-css.css */
+
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #ffccff;
+    padding: 20px;
+}
+
+
+#wrapper {
+    display: flex;
+}
+
+#menu {
+    background-color: #ccccff;
+    flex: 1; 
+    padding: 20px;
+}
+
+#main {
+    background-color: #ccffcc;
+    flex: 1;
+    padding: 20px;
+}
